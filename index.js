@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send("Node App Running on Kubernetes!");
+    res.send("Node App Running on  the Kubernetes!");
 });
 
 app.listen(3000, () => console.log("Server running on port 3000"));
